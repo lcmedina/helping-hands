@@ -3,17 +3,98 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(#56638A, white);
+  background-image: url("./images/homebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.app img {
+  margin-top: 60px;
 }
 
 .heading {
   font-family: 'Playfair Display', serif;
   font-size: 64px;
   font-weight: 700;
+  line-height: 1;
+  padding: 60px 0;
 }
 
 .call-to-action {
   border-radius: 16px;
-  border: 1px solid black;
+  border: 1px solid #875C74;
   background-color: #F85E00;
+  width: 200px;
+  height: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #343333;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bi {
+  width: 1em;
+  height: 2em;
+  font-size: 25px;
+  cursor: pointer;
+}
+.bi-cart, .bi-person-circle {
+  padding: 5px;
+  margin: 7px;
+}
+
+.navbar input {
+  padding: 0px 12px;
+  margin: 0px 10px;
+  background-color: #C4C4C4;
+  opacity: 24%;
+  border: none;
+  border-radius: 16px;
+  width: 200px;
+  height: 30px;
+}
+
+#offcanvasNavbar {
+  font-family: 'Josefin Sans', sans-serif;
+  align-items: center;
+  background-image: url("./images/menubg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+#offcanvasNavbar a {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+#offcanvasNavbar img {
+  margin-right: 20px;
+}
+#navToggle:focus, #navToggle:active {
+  outline: none;
+  box-shadow: none;
+}
+#nav-dropdown::after {
+  content: none;
+}
+.dropdown-menu.show {
+  border: none;
+}
+.navigation img {
+  margin-bottom: 20px;
 }
