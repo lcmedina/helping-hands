@@ -94,6 +94,7 @@
 }
 .dropdown-menu.show {
   border: none;
+  background-color: transparent;
 }
 .navigation img {
   margin-bottom: 20px;
