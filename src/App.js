@@ -11,7 +11,7 @@ function App() {
     <p className='heading'>Helping Hands</p>
     <button className='call-to-action'>Login</button>
     <button className='button'>Sign Up</button>
-    <img src={stroller} width={255} height={215} />
+    <img src={stroller} width={255} height={215} alt="woman with stroller" />
     </div>
     </>
   );
