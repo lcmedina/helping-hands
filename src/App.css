@@ -46,6 +46,10 @@
   background-color: transparent;
   cursor: pointer;
 }
+.filter-btn {
+  border-radius: 16px;
+  border: 1px solid #875C74;
+}
 input::placeholder {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
@@ -151,7 +155,6 @@ min-height: 40px;
   content: "";
   background-image:url('./images/icons/dropdown.png');
   background-size: 100% 100%;
-  display: inline-block;
   height: 10px;
   width: 15px;
   float: left;
@@ -183,13 +186,21 @@ min-height: 40px;
   justify-content: center;
   align-items: center;
 }
-.donate-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #875C74;
-  opacity: 10%;
+/* .donate-bg {
+  background: rgba(135, 92, 116, 0.1);
   border-radius: 50%;
   width: 387px;
   min-height: 401px;
+  margin: auto;
+} */
+.donate-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.category-container {
+  display: flex;
+
 }

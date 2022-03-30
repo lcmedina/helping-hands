@@ -19,10 +19,11 @@ ReactDOM.render(
     <TitleBar/>
     <Routes>
       <Route path='/' element={<App />} />
-      <Route path='/user/create' element={<SignUp />} />
-      <Route path='/user/login' element={<Login />} />
-      <Route path='/user/location' element={<Location />} />
-      <Route path='/user/donate' element={<Donate />} />
+      <Route path='/create' element={<SignUp />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/location' element={<Location />} />
+      <Route path='/donate' element={<Donate />} />
+
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

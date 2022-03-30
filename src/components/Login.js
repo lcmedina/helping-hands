@@ -25,7 +25,7 @@ const Login = () => {
                     />
                 </Form.Group>
             </Form>
-            <button className="call-to-action" onClick={() => navigate('/user/donate')}>Login</button>
+            <button className="call-to-action" onClick={() => navigate('/donate')}>Login</button>
         </Container>
      );
 }

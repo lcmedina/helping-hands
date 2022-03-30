@@ -11,8 +11,8 @@ function App() {
     <>
     <div className='app'>
     <p className='heading'>Helping Hands</p>
-    <button className='call-to-action' onClick={() => navigate('/user/login')}>Login</button>
-    <button className='button' onClick={() => navigate('/user/create')}>Sign Up</button>
+    <button className='call-to-action' onClick={() => navigate('/login')}>Login</button>
+    <button className='button' onClick={() => navigate('/create')}>Sign Up</button>
     <img src={stroller} width={255} height={215} alt="woman with stroller" />
     </div>
     </>

@@ -64,7 +64,7 @@ const SignUp = () => {
                     <Form.Check type="radio" label="Recepient" name="userType" value={"recepient"} onChange={e => setUser({...User, userType: e.target.value})} />
                 </Form.Group>
             </Form>
-            <button className="call-to-action" onClick={() => navigate('/user/location')}>
+            <button className="call-to-action" onClick={() => navigate('/location')}>
                     Continue
                 </button>
         </Container>
