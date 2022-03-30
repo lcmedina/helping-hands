@@ -22,18 +22,12 @@ const TitleBar = () => {
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3 navigation">
               <Container>
-              <Nav.Link href="#action1"><img src={Home} width={50} height={50} alt="house" /> Home</Nav.Link>
+              <Nav.Link href="/"><img src={Home} width={50} height={50} alt="house" /> Home</Nav.Link>
               </Container>
               {/* donate dropdown */}
               <Container style={{display: 'flex'}}>
                 <img src={Donate} width={50} height={50} alt="donate" />
-              <NavDropdown title="Donate" id="nav-dropdown">
-                  <NavDropdown.Item eventKey="1.1">Home Goods</NavDropdown.Item>
-                  <NavDropdown.Item eventKey="1.2">Clothes</NavDropdown.Item>
-                  <NavDropdown.Item eventKey="1.3">Child Carriers</NavDropdown.Item>
-                  <NavDropdown.Item eventKey="1.4">School</NavDropdown.Item>
-                  <NavDropdown.Item eventKey="1.5">Personal Care</NavDropdown.Item>
-              </NavDropdown>
+                <Nav.Link href="/user/donate">Donate</Nav.Link>
               </Container>
               {/* recieve dropdown */}
               <Container style={{display: 'flex'}}>
@@ -67,6 +61,7 @@ const TitleBar = () => {
               </Container>
             </Nav>
           </Offcanvas.Body>
+          <Offcanvas.Header closeButton />
         </Navbar.Offcanvas>
         <input></input>
         <i class="bi bi-cart"></i>
