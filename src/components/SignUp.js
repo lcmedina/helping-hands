@@ -6,10 +6,6 @@ import '../App.css'
 const SignUp = () => {
     let navigate = useNavigate();
 
-    const createUser = (req, res) => {
-
-    };
-
     const [User, setUser] = useState({
         firstName: '',
         lastName: '',
