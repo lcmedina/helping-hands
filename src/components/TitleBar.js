@@ -5,8 +5,10 @@ import Donate from '../images/icons/donateicon.png';
 import Receive from '../images/icons/receiveicon.png';
 import Resources from '../images/icons/resourcesicon.png';
 import Translate from '../images/icons/translateicon.png';
+import { Link } from 'react-router-dom';
 
 const TitleBar = () => {
+
     return ( 
       <Navbar expand={false} collapseOnSelect>
       <Container fluid className='navbar'>
@@ -27,7 +29,7 @@ const TitleBar = () => {
               {/* donate dropdown */}
               <Container style={{display: 'flex'}}>
                 <img src={Donate} width={50} height={50} alt="donate" />
-                <Nav.Link href="/user/donate">Donate</Nav.Link>
+                <Link to="/user/donate" component={Donate} style={{textDecoration: 'none'}}>Donate</Link>
               </Container>
               {/* recieve dropdown */}
               <Container style={{display: 'flex'}}>
