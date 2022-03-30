@@ -27,7 +27,7 @@ const Location = () => {
                     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
-            <button className="call-to-action" style={{marginTop: 20}} onClick={() => navigate('/user/login')}>Create Account</button>
+            <button className="call-to-action" style={{marginTop: 20}} onClick={() => navigate('/login')}>Create Account</button>
         </Container>
      );
 }

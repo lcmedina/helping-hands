@@ -29,7 +29,7 @@ const TitleBar = () => {
               {/* donate dropdown */}
               <Container style={{display: 'flex'}}>
                 <img src={Donate} width={50} height={50} alt="donate" />
-                <Link to="/user/donate" component={Donate} style={{textDecoration: 'none'}}>Donate</Link>
+                <Link to="/donate" component={Donate} style={{textDecoration: 'none'}}>Donate</Link>
               </Container>
               {/* recieve dropdown */}
               <Container style={{display: 'flex'}}>
